@@ -1,22 +1,52 @@
-# Ignore all
-*
+# Prerequisites
+*.d
 
-# Unignore all with extensions
-!*.*
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
 
-# Unignore all dirs
-!*/
+# Linker output
+*.ilk
+*.map
+*.exp
 
-### Above combination will ignore all files without extension ###
+# Precompiled Headers
+*.gch
+*.pch
 
-# Ignore files with extension `.class` & `.exe`
-*.class
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
 *.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
 
-# Ignore `bin` dir
-bin/
-# or
-*/bin/*
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
 
-# Unignore all `.exe` in `bin` dir
-!*/bin/*.exe
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
